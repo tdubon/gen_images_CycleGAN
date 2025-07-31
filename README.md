@@ -1,3 +1,9 @@
+# Generative Adversarial Network for Images
+
+This is an implementation of the CycleGAN model that was defined in <a href = https://arxiv.org/abs/1703.10593> Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks </a> and described by "Hands On Generative AI with Python and TensorFlow2" Joseph Babcock and Raghav Bali. 
+
+The original code is available on <a href="https://github.com/PacktPublishing/Hands-On-Generative-AI-with-Python-and-TensorFlow-2.git"> Github </a>. The code found in this repo is adapted to use with the <a href="https://www.kaggle.com/datasets/eduardo4jesus/stanford-cars-dataset?resource=download"> Stanford Cars Dataset </a>.
+
 # gen_images_CycleGAN
 Implementation of a CycleGAN, where 2 generators and 2 discriminators are created. Two images are fed into two generators whose outputs are used to train a discriminator. 
 
